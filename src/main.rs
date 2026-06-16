@@ -25,6 +25,6 @@ fn main() {
             last_state = is_desktop;
         }
 
-        thread::sleep(Duration::from_millis(1000));
+        thread::sleep(Duration::from_millis(200));
     }
 }
